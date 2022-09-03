@@ -1,6 +1,6 @@
 import logging
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
-from info import AUTH_CHANNEL, LONG_IMDB_DESCRIPTION, MAX_LIST_ELM
+from info import *
 from imdb import IMDb
 import asyncio
 from pyrogram.types import Message, InlineKeyboardButton
@@ -39,6 +39,7 @@ class temp(object):
     U_NAME = None
     B_NAME = None
     SETTINGS = {}
+    TUTORIAL_VIDEO = {TUTORIAL_VIDEO}
 
 async def is_subscribed(bot, query):
     try:
