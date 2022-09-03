@@ -4,5 +4,5 @@ import os
 
 class tamilgram(object):
 
-TUTORIAL_VIDEO = "playdisk.xyz"
-URL_BUTTON = "https://t.me/admin"
+TUTORIAL_VIDEO = """playdisk.xyz"""
+URL_BUTTON = """https://t.me/admin"""
