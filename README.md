@@ -1,7 +1,4 @@
-<h1 align="center">
-  <b• What's New ?></b>
-</h1>
-
+## • What's New ?
 
 <p align="center">
   <img src="https://github.com/Tamilgram/AutoMoviesSenderV3/blob/master/assets/20220218_121338.jpg" alt="Tamilgram Logo">
