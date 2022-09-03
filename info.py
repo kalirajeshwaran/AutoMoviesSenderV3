@@ -73,4 +73,4 @@ SELF_DELETE = environ.get('SELF_DELETE', False)
 if SELF_DELETE == "True":
     SELF_DELETE = True
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "Https://www.google.com/"
+DOWNLOAD_TEXT_URL = "https://www.google.com/"
