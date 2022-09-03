@@ -73,6 +73,3 @@ SELF_DELETE = environ.get('SELF_DELETE', False)
 if SELF_DELETE == "True":
     SELF_DELETE = True
 
-class Tamilgram(object):
-         TUTORIAL_VIDEO = environ.get('TUTORIAL_VIDEO', 'https://t.me/admin')
-         URL_BUTTON = environ.get('URL_BUTTON', 'https://t.me/TamilGram_Official')
