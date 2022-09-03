@@ -106,7 +106,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(f'📥 𝖧𝖮𝖶 𝖳𝖮 𝖣𝖮𝖶𝖭𝖫𝖮𝖠𝖣 📥', '{info.TUTORIAL_VIDEO')
+            InlineKeyboardButton(f'📥 𝖧𝖮𝖶 𝖳𝖮 𝖣𝖮𝖶𝖭𝖫𝖮𝖠𝖣 📥', '{temp.TUTORIAL_VIDEO')
         ]
     )
 
@@ -690,7 +690,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(f'📥 𝖧𝖮𝖶 𝖳𝖮 𝖣𝖮𝖶𝖭𝖫𝖮𝖠𝖣 📥', '{info.TUTORIAL_VIDEO')
+            InlineKeyboardButton(f'📥 𝖧𝖮𝖶 𝖳𝖮 𝖣𝖮𝖶𝖭𝖫𝖮𝖠𝖣 📥', '{temp.TUTORIAL_VIDEO')
         ]
     )
 
