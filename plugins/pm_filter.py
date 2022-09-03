@@ -104,6 +104,12 @@ async def next_page(bot, query):
             for file in files
         ]
 
+    btn.insert(0,
+        [
+            InlineKeyboardButton(f'📥 𝖧𝖮𝖶 𝖳𝖮 𝖣𝖮𝖶𝖭𝖫𝖮𝖠𝖣 📥', '{info.TUTORIAL_VIDEO')
+        ]
+    )
+
     if 0 < offset <= 10:
         off_set = 0
     elif offset == 0:
@@ -681,6 +687,12 @@ async def auto_filter(client, msg, spoll=False):
             ]
             for file in files
         ]
+
+    btn.insert(0,
+        [
+            InlineKeyboardButton(f'📥 𝖧𝖮𝖶 𝖳𝖮 𝖣𝖮𝖶𝖭𝖫𝖮𝖠𝖣 📥', '{info.TUTORIAL_VIDEO')
+        ]
+    )
 
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
