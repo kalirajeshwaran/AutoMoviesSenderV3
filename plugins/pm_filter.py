@@ -685,7 +685,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(f'📥 𝖧𝖮𝖶 𝖳𝖮 𝖣𝖮𝖶𝖭𝖫𝖮𝖠𝖣 📥', '{TUTORIAL_VIDEO')
+            InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
         ]
     )
 
