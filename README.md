@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://github.com/Tamilgram/AutoMoviesSenderV3/blob/master/assets/logo.jpg" alt="Eva Maria Logo">
+  <img src="https://github.com/Tamilgram/AutoMoviesSenderV3/blob/master/assets/20220218_121338.jpg" alt="Tamilgram Logo">
 </p>
 <h1 align="center">
-  <b>Eva Maria Bot</b>
+  <b>AutoMoviesSenderV3</b>
 </h1>
 
 
@@ -17,6 +17,9 @@
 
 ## Features
 
+- [x] 2GB+ Files Now Support
+- [x] URL Shortener Added
+- [x] Custom Buttons
 - [x] Auto Filter
 - [x] Manual Filter
 - [x] IMDB
