@@ -5,6 +5,7 @@ import ast
 import math
 from pyrogram.errors.exceptions.bad_request_400 import MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty
 from Script import script
+from Tamilgram import Tamilgram
 import pyrogram
 from database.connections_mdb import active_connection, all_connections, delete_connection, if_active, make_active, \
     make_inactive
@@ -106,7 +107,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(f'📥 𝖧𝖮𝖶 𝖳𝖮 𝖣𝖮𝖶𝖭𝖫𝖮𝖠𝖣 📥', '{TUTORIAL_VIDEO')
+            InlineKeyboardButton(f'📥 𝖧𝖮𝖶 𝖳𝖮 𝖣𝖮𝖶𝖭𝖫𝖮𝖠𝖣 📥', '{Tamilgram.TUTORIAL_VIDEO')
         ]
     )
 
@@ -690,7 +691,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(f'📥 𝖧𝖮𝖶 𝖳𝖮 𝖣𝖮𝖶𝖭𝖫𝖮𝖠𝖣 📥', '{TUTORIAL_VIDEO')
+            InlineKeyboardButton(f'📥 𝖧𝖮𝖶 𝖳𝖮 𝖣𝖮𝖶𝖭𝖫𝖮𝖠𝖣 📥', '{Tamilgram.TUTORIAL_VIDEO')
         ]
     )
 
