@@ -29,7 +29,7 @@ async def start(client, message):
                 InlineKeyboardButton('⚡ 𝖸𝖮𝖴𝖳𝖴𝖡𝖤 ⚡', url=f"https://youtube.com/channel/UCcel9dkZcPsrWlJGTdyEQrQ"),
             ],
             [
-                InlineKeyboardButton('📥 𝖧𝖮𝖶 𝖳𝖮 𝖣𝖮𝖶𝖭𝖫𝖮𝖠𝖣 📥', url='{info.TUTORIAL_VIDEO}')
+                InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
