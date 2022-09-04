@@ -1,7 +1,7 @@
 {
     "name": "Tamilgram/AutoMoviesSenderV3",
     "description": "Clone Of Evamaria & More Features Added",
-    "stack": "container"
+    "stack": "container",
     "logo": "https://github.com/Tamilgram/AutoMoviesSenderV3/blob/master/assets/20220218_121338.jpg",
     "keywords": [
       "telegram",
