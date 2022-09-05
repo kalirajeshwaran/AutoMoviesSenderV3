@@ -74,3 +74,5 @@ if SELF_DELETE == "True":
     SELF_DELETE = True
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
 DOWNLOAD_TEXT_URL = "https://www.google.com/"
+CAPTION_BUTTON = "https://www.google.com/"
+CAPTION_BUTTON_URL = "https://www.google.com/"
