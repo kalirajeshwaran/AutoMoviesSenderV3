@@ -243,17 +243,16 @@ async def start(client, message):
             f_caption=f_caption
     if f_caption is None:
         f_caption = f"{files.file_name}"
-    if SELF_DELETE:
-            await asyncio.sleep(SELF_DELETE_SECONDS)
-            await fuk.delete()
-    await client.send_cached_media(
+        fek = await client.send_cached_media(
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
         reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(text=CAPTION_BUTTON,url=CAPTION_BUTTON_URL) ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
-                    
+    if SELF_DELETE:
+            await asyncio.sleep(SELF_DELETE_SECONDS)
+            await fek.delete()       
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
 async def channel_info(bot, message):
