@@ -66,13 +66,23 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 
 ## EXTRA FEATURES ##
 
+      # URL Shortener #
+
 URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'google.com')
 URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '1244')
+
+     # Auto Delete For Group Message (Self Delete) #
 SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 10))
 SELF_DELETE = environ.get('SELF_DELETE', True)
 if SELF_DELETE == "True":
     SELF_DELETE = True
+
+    # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
 DOWNLOAD_TEXT_URL = "https://www.google.com/"
+
+   # Custom Caption Under Button #
 CAPTION_BUTTON = "https://www.google.com/"
 CAPTION_BUTTON_URL = "https://www.google.com/"
+
+   # Auto Delete For Bot Sending Files #
