@@ -250,6 +250,9 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(text=CAPTION_BUTTON,url=CAPTION_BUTTON_URL) ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
+    if SELF_DELETE:
+            await asyncio.sleep(SELF_DELETE_SECONDS)
+            await fuk.delete()
                     
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
