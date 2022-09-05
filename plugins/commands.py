@@ -221,6 +221,10 @@ async def start(client, message):
             title = file.file_name
             size=get_size(file.file_size)
             f_caption = f"<code>{title}</code>"
+            if SELF_DELETE:
+            await asyncio.sleep(SELF_DELETE_SECONDS)
+            await msg.delete()       
+
             if CUSTOM_FILE_CAPTION:
                 try:
                     f_caption=CUSTOM_FILE_CAPTION.format(file_name= '' if title is None else title, file_size='' if size is None else size, file_caption='')
@@ -250,9 +254,6 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(text=CAPTION_BUTTON,url=CAPTION_BUTTON_URL) ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
-    if SELF_DELETE:
-            await asyncio.sleep(SELF_DELETE_SECONDS)
-            await msg.delete()       
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
 async def channel_info(bot, message):
