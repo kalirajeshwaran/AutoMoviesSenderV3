@@ -81,7 +81,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/Tamilgram/AutoMoviesSenderV3">
+<a href="https://heroku.com/deploy?template=https://github.com/kalirajeshwaran/AutoMoviesSenderV3">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
